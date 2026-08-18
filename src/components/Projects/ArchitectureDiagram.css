@@ -1,0 +1,84 @@
+.arch-diagram-box {
+  background-color: var(--bg-canvas);
+  border: 1px solid var(--border-hairline);
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.diagram-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed var(--border-strong);
+}
+
+.diagram-title {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--text-primary);
+}
+
+.diagram-badge {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--accent-cobalt);
+  color: #FFFFFF;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+.topology-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.topo-node {
+  flex: 1;
+  min-width: 150px;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-hairline);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.topo-node.active {
+  border-color: var(--accent-cobalt);
+  box-shadow: inset 3px 0 0 var(--accent-cobalt);
+}
+
+.node-tag {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+}
+
+.node-name {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 2px;
+}
+
+.node-subspec {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--accent-cobalt);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.topo-arrow {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  color: var(--text-muted);
+}
