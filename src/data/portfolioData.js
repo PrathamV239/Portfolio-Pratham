@@ -81,7 +81,7 @@ export const projectsData = [
   {
     id: "interview-ai",
     number: "04",
-    title: "Interview AI — Job Prep Platform",
+    title: "Interview AI - Job Prep Platform",
     subtitle: "Schema-Validated Full-Stack Gen-AI Web App",
     category: "Full-Stack AI Engineering",
     summary: "Full-stack application analyzing resumes against job descriptions to generate 0-100 match scores, technical/behavioral prep reports, and ATS-friendly PDF resumes.",
@@ -126,19 +126,19 @@ export const experienceData = [
     bulletPoints: [
       "Built a cross-platform desktop invoicing application in C++ and Qt6, replacing a manual spreadsheet workflow and cutting invoice processing time by 40%.",
       "Engineered an event-driven tax and computation system across 6 normalized SQLite tables, enabling instant invoice recalculation and cutting generation time by 60%.",
-      "Built a PDF generation pipeline supporting 1–50+ line items per invoice, delivering a fully offline-capable billing solution."
+      "Built a PDF generation pipeline supporting 1-50+ line items per invoice, delivering a fully offline-capable billing solution."
     ],
     skills: ["C++", "Qt6", "SQLite", "Desktop Architecture", "Event-Driven Systems", "Offline Computing"]
   },
   {
-    role: "Software Engineer",
+    role: "AI Operations Engineer",
     company: "Amari AI",
     period: "Sep 2025 – Jan 2026",
     location: "Remote",
     type: "Full-time",
     description: "Maintained production AI document extraction pipelines, resolving incidents and standardizing team SOPs.",
     bulletPoints: [
-      "Debugged and resolved 80–100 daily pipeline errors in a production AI document-extraction system, sustaining 99%+ data accuracy across 1,000+ documents weekly.",
+      "Debugged and resolved 80-100 daily pipeline errors in a production AI document-extraction system, sustaining 99%+ data accuracy across 1,000+ documents weekly.",
       "Cut recurring pipeline failures by 90%+ through root-cause analysis, directly reducing manual rework and downstream data-quality escalations.",
       "Standardized error-resolution workflows across the SDLC by authoring 15+ SOPs and leading GitHub PR reviews, cutting onboarding time for new team members."
     ],
